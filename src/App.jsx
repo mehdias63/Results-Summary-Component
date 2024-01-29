@@ -3,7 +3,7 @@ import Card from "./components/Card";
 
 function App() {
   return (
-    <main className="flex justify-center items-center min-h-screen bg-[#ECF2FF]">
+    <main className="flex justify-center items-center min-h-screen bg-light-gray">
       <Card />
     </main>
   );

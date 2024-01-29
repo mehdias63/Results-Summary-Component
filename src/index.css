@@ -8,3 +8,20 @@ div.wrap {
     linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
   );
 }
+div.state {
+  background: var(
+    --Gradient-2,
+    linear-gradient(
+      180deg,
+      #4d21c9 0%,
+      rgba(37, 33, 201, 0) 100%,
+      rgba(37, 33, 201, 0) 100%
+    )
+  );
+}
+button:hover {
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
+  );
+}

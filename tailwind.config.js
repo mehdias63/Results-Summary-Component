@@ -5,7 +5,13 @@ export default {
     fontFamily: {
       hanken: ["Hanken Grotesk"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        "dark-blue": "#303B59",
+        "light-blue": "#CAC9FF",
+        "light-gray": "#ECF2FF",
+      },
+    },
   },
   plugins: [],
 };
