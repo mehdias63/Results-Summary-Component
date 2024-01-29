@@ -7,7 +7,7 @@ export default function Rate({ icon, title, text, color, textcolor }) {
       style={{ backgroundColor: color }}
     >
       <div className="flex items-center gap-3">
-        <img src={icon} />
+        <img src={icon} alt="rate" />
         <p style={{ color: textcolor }}>{title}</p>
       </div>
       <div className="flex ml-auto">
