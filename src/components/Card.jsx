@@ -4,11 +4,11 @@ import Rate from "./Rate";
 export default function Card() {
   return (
     <div className="font-hanken bg-white flex flex-col lg:flex-row lg:rounded-[2rem] shadow-[0_30px_60px_0px_rgba(61,108,236,0.15)]">
-      <div className="wrap w-[23.4375rem] h-[22.25rem] lg:h-[32rem] rounded-b-[2rem] lg:rounded-t-[2rem] text-white flex flex-col items-center">
+      <div className="w-[23.4375rem] h-[22.25rem] lg:h-[32rem] rounded-b-[2rem] lg:rounded-t-[2rem] text-white flex flex-col items-center bg-gradient-to-b from-light-slate-blue to-light-royal-blue">
         <p className="text-xl font-bold mt-4 lg:text-2xl text-light-blue lg:mt-8">
           Your Result
         </p>
-        <div className="state w-[8.75rem] h-[8.75rem] lg:w-[12.5rem] lg:h-[12.5rem] rounded-full flex flex-col justify-center items-center mt-6 mb-4 lg:gap-2">
+        <div className="w-[8.75rem] h-[8.75rem] lg:w-[12.5rem] lg:h-[12.5rem] rounded-full flex flex-col justify-center items-center mt-6 mb-4 lg:gap-2 bg-gradient-to-b from-light-slate-purple to-light-royal-purple">
           <h1 className="text-[3.5rem] lg:text-7xl font-extrabold">76</h1>
           <p className="text-base lg:text-lg text-light-blue">of 100</p>
         </div>
@@ -51,7 +51,7 @@ export default function Card() {
           color="#f2f2fd"
           textcolor="#1125D6"
         />
-        <button className="bg-dark-blue p-4 rounded-full text-white mt-4 lg:mt-8">
+        <button className="bg-dark-blue p-4 rounded-full text-white mt-4 lg:mt-8 hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue">
           Continue
         </button>
       </div>
